@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@media screen and (max-width: 1440px) {
+    html, body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .text-title {
+        font-weight: bold;
+    }
+    
+    .text-grey {
+        
+    }
+}
+
+@media screen and (m-width: 425px) {
+    html, body {
+        font-family: 'Montserrat', sans-serif;
+    }
+}

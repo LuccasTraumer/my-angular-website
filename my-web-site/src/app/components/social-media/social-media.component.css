@@ -1,0 +1,10 @@
+.container {
+    width: 372px;
+    height: 61px;
+    display: inline-flex;
+}
+
+.icon img {
+    width: 20px;
+    height: 20px;
+}
