@@ -1,13 +1,14 @@
 @media screen and (max-width: 1440px) {
     html, body {
         font-family: 'Montserrat', sans-serif;
+
     }
     .text-title {
         font-weight: bold;
     }
-    
+
     .text-grey {
-        
+
     }
 }
 
