@@ -9,6 +9,7 @@
  * prefixes.
  */
 
+
  #menuToggle
  {
    display: block;
@@ -124,7 +125,7 @@
 
    position: absolute;
    margin: -100px 0 0 -50px;
-   padding: 50px;
+   padding: 50px 50px 100vh 8vw;
    padding-top: 125px;
    background: #131421;
    list-style-type: none;
