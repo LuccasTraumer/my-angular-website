@@ -130,7 +130,7 @@
 
    position: absolute;
    margin: -100px 0 0 -50px;
-   padding: 50px 50px 58vh 8vw;
+   padding: 50px 40px 50vh 5vw;
    padding-top: 125px;
    background: #131421;
    list-style-type: none;
@@ -145,7 +145,8 @@
 
  #menu li
  {
-   padding: 10px 0;
+
+   padding: 10px 2px;
    font-size: 22px;
  }
 
@@ -202,3 +203,17 @@
 .mr-2vw {
   margin-right: 2vh;
 }
+
+.div-group {
+  display: flex;
+  padding-top: 1vh;
+  height: 61px;
+}
+
+.div-group img {
+  height: 25px;
+  width: 25px;
+  margin-right: 0.5vw;
+  margin-top: 0.3vh;
+}
+
