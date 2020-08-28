@@ -20,4 +20,8 @@ html, body {
   border: 0px solid #dee2e6!important ;
 }
 
-
+.feed {
+  width: 85vw;
+  position: relative;
+  margin-left: 5vw;
+}

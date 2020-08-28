@@ -1,0 +1,10 @@
+.conatiner {
+  align-items: right;
+  width: 100%;
+  display: flex;
+}
+
+.imgs {
+  display: inline-block;
+  align-items: right;
+}
