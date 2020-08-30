@@ -17,7 +17,6 @@
  #menuToggle a
  {
    text-decoration: none;
-   color: #232323;
 
    transition: color 0.3s ease;
  }
@@ -165,13 +164,13 @@ div .name-username {
   height: 100%;
 }
 
-.name-username .text-color-white {
+.name-username .name {
+  width: 120%;
   padding-right: 1.7vw;
-  font-size: 22px;
 } 
 
-.name-username .text-color-grey {
-  padding-left: 1.2vw;
+.name-username .username {
+  padding-left: 1vw;
   font-size: 15px;
 }
 
