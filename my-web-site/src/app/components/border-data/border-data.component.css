@@ -1,13 +1,3 @@
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
 
  #menuToggle
  {
@@ -20,6 +10,7 @@
 
    -webkit-user-select: none;
    user-select: none;
+
 
  }
 
@@ -145,9 +136,9 @@
 
  #menu li
  {
-
-   padding: 10px 2px;
-   font-size: 22px;
+    width: 125%;
+    height: 100%;
+    padding: 10px 2px;
  }
 
  /*
@@ -158,34 +149,30 @@
    transform: none;
  }
 
-
- div .icon {
-  margin-top: 0;
-  padding: 0vh 5vh 5vh 5vh;
-  width: 100px;
-  height: 100px;
-  left: 119px;
-  top: 147px;
-
+.icon {
+  padding-left: 1.5vw;
 }
 
 .icon img {
-  width: 100px;
-  height: 100px;
-  left: 84px;
-  top: 132px;
+  width: 60%;
+  height: 60%;
   border-radius: 50%;
 }
 
-.name-username label {
-  padding: 0px;
-  margin: 0.2vh;
-  align-items: center;
-  text-align: center;
+div .name-username {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
 }
 
-.name-username .ml-2vw {
-  padding-left: 1vw;
+.name-username .text-color-white {
+  padding-right: 1.7vw;
+  font-size: 22px;
+} 
+
+.name-username .text-color-grey {
+  padding-left: 1.2vw;
+  font-size: 15px;
 }
 
 .description .mr-2vw {
