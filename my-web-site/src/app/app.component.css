@@ -1,0 +1,27 @@
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #191A2A;
+}
+
+.container {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    width: 110vw;
+    height: 100vh;
+}
+
+.border  {
+  height: 100vh;
+  width: 20vw;
+  border: 0px solid #dee2e6!important ;
+}
+
+.feed {
+  width: 85vw;
+  position: relative;
+  margin-left: 5vw;
+}
