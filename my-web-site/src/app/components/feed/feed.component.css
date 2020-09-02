@@ -4,6 +4,11 @@
   display: flex;
 }
 
+.description {
+  width: 100%;
+  display: inline-flex;
+}
+
 .imgs {
   display: inline-block;
   align-items: right;
