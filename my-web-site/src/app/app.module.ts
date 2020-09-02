@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { BorderDataComponent } from './components/border-data/border-data.component';
@@ -11,7 +12,8 @@ import { FeedComponent } from './components/feed/feed.component';
     AppComponent,
     BorderDataComponent,
     FeedComponent,
-    SocialMediaComponent
+    SocialMediaComponent,
+    HttpClientModule
   ],
   imports: [
     BrowserModule
