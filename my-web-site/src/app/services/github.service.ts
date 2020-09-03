@@ -10,6 +10,5 @@ export class GithubService {
   constructor(private http: HttpClient) { }
 
   OnInit() {
-    environment.url_github;
   }
 }

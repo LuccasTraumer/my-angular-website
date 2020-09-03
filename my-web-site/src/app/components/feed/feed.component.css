@@ -1,12 +1,18 @@
-.conatiner {
-  align-items: right;
-  width: 100%;
-  display: flex;
+.container {
+  width: 100vw;
+}
+
+.post {
+  padding-top: 10vh;
 }
 
 .description {
   width: 100%;
-  display: inline-flex;
+  display: inline-block;
+}
+
+.data-project {
+  float: right;
 }
 
 .imgs {

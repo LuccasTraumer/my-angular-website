@@ -2,7 +2,7 @@
  #menuToggle
  {
    display: block;
-   position: relative;
+   position: absolute;
    top: 50px;
    left: 50px;
 
@@ -118,7 +118,7 @@
  {
 
    position: absolute;
-   margin: -100px 0 0 -50px;
+   margin: -100px 0 0 -70px;
    padding: 50px 40px 50vh 5vw;
    padding-top: 125px;
    background: #131421;
@@ -130,6 +130,10 @@
    transform: translate(-100%, 0);
 
    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+ }
+
+ #menu div {
+   align-self: center;
  }
 
  #menu li

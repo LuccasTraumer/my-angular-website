@@ -13,10 +13,10 @@ import { FeedComponent } from './components/feed/feed.component';
     BorderDataComponent,
     FeedComponent,
     SocialMediaComponent,
-    HttpClientModule
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
