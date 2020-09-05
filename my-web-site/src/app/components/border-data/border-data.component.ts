@@ -1,3 +1,5 @@
+import { GithubService } from './../../services/github.service';
+import { UserTO } from './../utils/userTO';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BorderDataComponent implements OnInit {
 
-  constructor() { }
+  public user: UserTO;
+
+  constructor(private service: GithubService) {
+
+   }
 
   ngOnInit(): void {
+    this.service.getUser().subscribe((user) => {
+      this.user = user;
+    });
   }
 
 }

@@ -1,4 +1,6 @@
+import { GithubService } from './../../services/github.service';
 import { Component, OnInit } from '@angular/core';
+import { UserTO } from '../utils/userTO';
 
 @Component({
   selector: 'app-post',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostComponent implements OnInit {
 
-  constructor() { }
+  private user: UserTO;
+
+  constructor(private service: GithubService) {
+
+  }
 
   ngOnInit(): void {
+    this.service.getUser().subscribe((user) => {
+      this.user = user;
+    });
   }
 
 }
