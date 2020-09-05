@@ -1,3 +1,4 @@
+import { PostComponent } from './components/post/post.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
@@ -13,6 +14,7 @@ import { FeedComponent } from './components/feed/feed.component';
     BorderDataComponent,
     FeedComponent,
     SocialMediaComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,

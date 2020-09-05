@@ -1,0 +1,52 @@
+.container {
+    width: 100vw;
+  }
+  
+  .post {
+    margin: 2vh;
+    padding-top: 10vh;
+  }
+  
+  div .post .container {
+    width: 80vw;
+  }
+  
+  .description {
+    padding-right: 2vw;
+    width: 75%;
+    display: inline-block;
+  }
+  
+  .data-project {
+    padding-top: 2.2vw;
+    float: right;
+    display: inline-grid;
+  
+  }
+
+  .data-project label {
+    padding-top: 0.2vh;
+    padding-left: 0.5vw;
+  }
+  
+  .imgs-post {
+    float: right;
+  }
+  
+  .imgs-post img {
+
+    float: right;
+    width: 15vw;
+    
+  }
+  
+  .data-project .second {
+    line-height: 0.5;
+    padding-left: 2vw;
+  }
+  
+  .imgs {
+    display: inline-block;
+    align-items: right;
+  }
+  
