@@ -1,15 +1,19 @@
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1440px) {
     html, body {
         padding: 0;
         margin: 0;
         background: #191A2A;
         background-color: #191A2A;
+        max-width: 1440px;
+        min-width: 1000px;
     }
 }
-
+/*
 @media screen and (m-width: 425px) {
     html, body {
         font-family: 'Montserrat', sans-serif;
         background-color: #191A2A;
     }
+    
 }
+*/
