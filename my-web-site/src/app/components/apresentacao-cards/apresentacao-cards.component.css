@@ -2,3 +2,8 @@
     display: flex;
     margin-bottom: 2vh;
 }
+
+.card {
+    padding-left: 1vh;
+    padding-top: 1vh;
+}
