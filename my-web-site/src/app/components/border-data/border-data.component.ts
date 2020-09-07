@@ -13,6 +13,12 @@ export class BorderDataComponent implements OnInit, OnChanges {
   public user: UserTO;
   descriptionMySelf = 'Talk about my self';
 
+  iconFacebook = 'https://raw.githubusercontent.com/LuccasTraumer/my-angular-website/dev/my-web-site/src/assets/facebook-icon.png';
+  iconInstagram = 'https://raw.githubusercontent.com/LuccasTraumer/my-angular-website/dev/my-web-site/src/assets/instagram-icon.png';
+  iconGithub = 'https://raw.githubusercontent.com/LuccasTraumer/my-angular-website/dev/my-web-site/src/assets/github-icon.png';
+  iconLinkedin = 'https://raw.githubusercontent.com/LuccasTraumer/my-angular-website/dev/my-web-site/src/assets/linkedin-icon.png';
+  iconTwitter = 'https://raw.githubusercontent.com/LuccasTraumer/my-angular-website/dev/my-web-site/src/assets/twitter-icon.png';
+
   constructor(private service: GithubService) {
 
    }
