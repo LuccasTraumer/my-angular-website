@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { BorderDataComponent } from './components/border-data/border-data.component';
 import { SocialMediaComponent } from './components/social-media/social-media.component';
 import { FeedComponent } from './components/feed/feed.component';
+import { HobbieComponent } from './components/hobbie/hobbie.component';
+import { ApresentacaoCarousselComponent } from './components/apresentacao-caroussel/apresentacao-caroussel.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { FeedComponent } from './components/feed/feed.component';
     BorderDataComponent,
     FeedComponent,
     SocialMediaComponent,
-    PostComponent
+    PostComponent,
+    HobbieComponent,
+    ApresentacaoCarousselComponent
   ],
   imports: [
     BrowserModule,

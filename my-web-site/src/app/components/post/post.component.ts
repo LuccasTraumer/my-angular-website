@@ -37,6 +37,15 @@ export class PostComponent implements OnInit, OnChanges {
       case 'Post_Blog':
         return environment.photo_repo_postblog;
         break;
+      case 'remade_random_websites':
+        return environment.photo_repo_random;
+        break;
+      case 'Download-Youtube_videos':
+        return environment.photo_501_NotImpl;
+        break;
+        case 'ConversorEscrita':
+          return environment.photo_501_NotImpl;
+          break;
     }
   }
 
