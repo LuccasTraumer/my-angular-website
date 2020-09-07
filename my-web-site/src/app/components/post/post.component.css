@@ -21,15 +21,14 @@
   }
   
   .data-project {
-    padding-top: 5vw;
+    padding-top: 1.5vw;
     float: right;
     display: inline-grid;
   
   }
 
   .data-project label {
-    padding-top: 0.2vh;
-    padding-left: 1.5vw;
+    padding-left: 1vw;
   }
   
   .imgs-post {
@@ -37,14 +36,15 @@
   }
   
   .imgs-post img {
-
+    border-radius: 5px;
+    border: #fff solid 0.5px;
     float: right;
-    width: 15vw;
+    width: 13vw;
     
   }
   
   .data-project .second {
-    line-height: 0.5;
+    line-height: 0.1;
     padding-left: 2vw;
   }
   

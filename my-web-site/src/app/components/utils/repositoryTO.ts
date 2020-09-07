@@ -1,8 +1,8 @@
 import { UserTO } from './userTO';
 
 export class RepositoryTO {
+    name: string;
     description: string;
-    user: UserTO;
     language: string;
     url: string;
 }

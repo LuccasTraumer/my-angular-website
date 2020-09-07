@@ -1,3 +1,4 @@
+import { RepositoryTO } from './../utils/repositoryTO';
 import { GithubService } from './../../services/github.service';
 import { UserTO } from './../utils/userTO';
 import { Component, OnInit } from '@angular/core';
@@ -18,6 +19,9 @@ export class BorderDataComponent implements OnInit {
   ngOnInit(): void {
     this.service.getUser().subscribe((user) => {
       this.user = user;
+    });
+    this.service.getRepository().subscribe((repo: RepositoryTO[]) => {
+      this.user.repository = repo;
     });
   }
 

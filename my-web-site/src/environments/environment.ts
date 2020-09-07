@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   url_github_user: 'https://api.github.com/users/luccastraumer',
-  url_github_reps: 'https://api.github.com/users/LuccasTraumer/repos',
+  url_github_reps: 'https://api.github.com/users/luccastraumer/repos?page=1&per_page=100',
 
   photo_repo_covid: 'https://raw.githubusercontent.com/LuccasTraumer/twitter_data_covid-19/master/Screenshot_2020-09-05%20Atualiza%C3%A7%C3%A3o%20sobre%20COVID-19%20(%20againstCovi19)%20Twitter.png',
   photo_repo_aircnc: 'https://raw.githubusercontent.com/LuccasTraumer/AirCnC/master/Images_Web/Web_Screen_Login.jpg',

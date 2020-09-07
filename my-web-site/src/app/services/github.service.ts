@@ -1,33 +1,38 @@
 import { Injectable, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { Observable, throwError } from 'rxjs';
 
 import { environment } from './../../environments/environment';
+import { RepositoryTO } from './../components/utils/repositoryTO';
 import { UserTO } from '../components/utils/userTO';
-import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class GithubService {
 
-  static userData: UserTO;
+  userData: UserTO;
+  repo: RepositoryTO[];
 
   constructor(private http: HttpClient) {
-    this.http.get<UserTO>(environment.url_github_user);
-    console.log(this.http + ' Constructor');
   }
 
   OnInit() {
-    this.http.get<UserTO>(environment.url_github_user);
-    console.log(this.http + ' On Init');
   }
 
   load(){
-    this.http.get<UserTO>(environment.url_github_user);
-    console.log(this.http + ' Load');
   }
 
   public getUser(): Observable<UserTO> {
     return this.http.get<UserTO>(environment.url_github_user);
   }
+
+  fillUser(): Observable<UserTO> {
+    return  this.http.get<UserTO>(environment.url_github_user);
+  }
+
+  getRepository(): Observable<RepositoryTO[]> {
+    return this.http.get<RepositoryTO[]>(environment.url_github_reps);
+  }
+
 }

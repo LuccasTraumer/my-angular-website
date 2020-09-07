@@ -5,6 +5,6 @@ export class UserTO {
     avatar_url: string;
     login: string;
     repos_url: string;
-    repository: RepositoryTO;
+    repository: RepositoryTO[];
 
 }
