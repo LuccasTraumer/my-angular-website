@@ -30,13 +30,17 @@ export class PostComponent implements OnInit, OnChanges {
     switch (this.project){
       case 'AirCnC':
         return environment.photo_repo_aircnc;
-        break;
       case 'twitter_data_covid-19':
         return environment.photo_repo_covid;
-        break;
       case 'Post_Blog':
         return environment.photo_repo_postblog;
-        break;
+      case 'remade_random_websites':
+        return environment.photo_repo_random;
+      case 'Download-Youtube_videos':
+        return environment.photo_501_NotImpl;
+        case 'ConversorEscrita':
+          return environment.photo_501_NotImpl;
+
     }
   }
 

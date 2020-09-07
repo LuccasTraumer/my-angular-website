@@ -181,7 +181,6 @@ div .name-username {
   padding-right: 1vw;
 }
 
-
 .ml-2vw {
   margin-left: 2vw;
 }
@@ -196,7 +195,29 @@ div .name-username {
   height: 61px;
 }
 
-.div-group img {
+#inst img {
+  height: 25px;
+  width: 25px;
+
+}
+
+#linkedin {
+  padding-right: 4vw;
+}
+
+#linkedin img {
+  height: 32px;
+  width: 32px;
+}
+
+ .div-group img {
+  height: 25px;
+  width: 25px;
+  margin-right: 0.5vw;
+  margin-top: 0.3vh;
+}
+
+.group-social-media .div-group img {
   height: 25px;
   width: 25px;
   margin-right: 0.5vw;
