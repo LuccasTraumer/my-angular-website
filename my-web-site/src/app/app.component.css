@@ -4,7 +4,7 @@ html, body {
 }
 
 .container {
-    display: flex;
+    display: absolute;
     padding: 0;
     margin: 0;
     margin:0px;
@@ -15,13 +15,15 @@ html, body {
 }
 
 .border  {
+  position: fixed;
   height: 100vh;
-  width: 20vw;
+  width: 30vw;
   border: 0px solid #dee2e6!important ;
 }
 
 .feed {
-  width: 85vw;
+  width: 100vw;
+  height: 100vh;
   position: relative;
-  margin-left: 5vw;
+  margin-left: 20vw;
 }
