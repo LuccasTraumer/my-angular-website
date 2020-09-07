@@ -1,3 +1,4 @@
+import { ApresentacaoCardsComponent } from './components/apresentacao-cards/apresentacao-cards.component';
 import { GithubService } from './services/github.service';
 import { PostComponent } from './components/post/post.component';
 import { BrowserModule } from '@angular/platform-browser';
@@ -19,7 +20,8 @@ import { ApresentacaoCarousselComponent } from './components/apresentacao-carous
     SocialMediaComponent,
     PostComponent,
     HobbieComponent,
-    ApresentacaoCarousselComponent
+    ApresentacaoCarousselComponent,
+    ApresentacaoCardsComponent
   ],
   imports: [
     BrowserModule,
