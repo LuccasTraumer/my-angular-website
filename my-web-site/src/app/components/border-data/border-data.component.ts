@@ -1,28 +1,35 @@
 import { RepositoryTO } from './../utils/repositoryTO';
 import { GithubService } from './../../services/github.service';
 import { UserTO } from './../utils/userTO';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnChanges, SimpleChanges } from '@angular/core';
 
 @Component({
   selector: 'app-border-data',
   templateUrl: './border-data.component.html',
   styleUrls: ['../../styles/styles.scss', './border-data.component.css']
 })
-export class BorderDataComponent implements OnInit {
+export class BorderDataComponent implements OnInit, OnChanges {
 
   public user: UserTO;
+  descriptionMySelf = 'Talk about my self';
 
   constructor(private service: GithubService) {
 
    }
+  ngOnChanges(changes: SimpleChanges): void {
+    this.ngOnInit();
+  }
 
   ngOnInit(): void {
     this.service.getUser().subscribe((user) => {
       this.user = user;
+      this.descriptionMySelf = user.bio;
+
     });
     this.service.getRepository().subscribe((repo: RepositoryTO[]) => {
       this.user.repository = repo;
     });
+
   }
 
 }

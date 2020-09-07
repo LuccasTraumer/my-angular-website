@@ -27,7 +27,6 @@ export class PostComponent implements OnInit, OnChanges {
   }
 
   setImage(): string {
-    console.log('Cheguei');
     switch (this.project){
       case 'AirCnC':
         return environment.photo_repo_aircnc;
