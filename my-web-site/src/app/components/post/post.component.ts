@@ -57,7 +57,18 @@ export class PostComponent implements OnInit, OnChanges {
         this.setImage();
       }
     });
+  }
 
+  getTechs(): string {
+    return this.techs;
+  }
+
+  getNameProject(): string {
+    return this.nameProject;
+  }
+
+  getDescription(): string {
+    return this.description;
   }
 
 }

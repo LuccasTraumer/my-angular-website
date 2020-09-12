@@ -6,3 +6,8 @@
 p {
     margin-left: 5vw;
 }
+
+.card-body {
+    max-width: 60vw;
+    position: absolute;
+}
