@@ -1,3 +1,4 @@
+import { environment } from './../../../environments/environment.dev';
 import { RepositoryTO } from './../utils/repositoryTO';
 import { GithubService } from './../../services/github.service';
 import { UserTO } from './../utils/userTO';
@@ -13,15 +14,8 @@ export class BorderDataComponent implements OnInit, OnChanges {
   public user: UserTO;
   descriptionMySelf = 'Talk about my self';
 
-  iconFacebook = 'https://raw.githubusercontent.com/LuccasTraumer/my-angular-website/dev/my-web-site/src/assets/facebook-icon.png';
-  iconInstagram = 'https://raw.githubusercontent.com/LuccasTraumer/my-angular-website/dev/my-web-site/src/assets/instagram-icon.png';
-  iconGithub = 'https://raw.githubusercontent.com/LuccasTraumer/my-angular-website/dev/my-web-site/src/assets/github-icon.png';
-  iconLinkedin = 'https://raw.githubusercontent.com/LuccasTraumer/my-angular-website/dev/my-web-site/src/assets/linkedin-icon.png';
-  iconTwitter = 'https://raw.githubusercontent.com/LuccasTraumer/my-angular-website/dev/my-web-site/src/assets/twitter-icon.png';
+  constructor(private service: GithubService) { }
 
-  constructor(private service: GithubService) {
-
-   }
   ngOnChanges(changes: SimpleChanges): void {
     this.ngOnInit();
   }
@@ -35,7 +29,25 @@ export class BorderDataComponent implements OnInit, OnChanges {
     this.service.getRepository().subscribe((repo: RepositoryTO[]) => {
       this.user.repository = repo;
     });
-
   }
 
+  getFacebookIcon(): string {
+    return environment.iconFacebook;
+  }
+
+  getInstagramIcon(): string {
+    return environment.iconInstagram;
+  }
+
+  getTwitterIcon(): string {
+    return environment.iconTwitter;
+  }
+
+  getLinkedinIcon(): string {
+    return environment.iconLinkedin;
+  }
+
+  getGithubIcon(): string {
+    return environment.iconGithub;
+  }
 }
