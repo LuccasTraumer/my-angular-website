@@ -1,0 +1,21 @@
+.row {
+    width: 75vw;
+    margin-left: 3vw;
+}
+
+p {
+    margin-left: 5vw;
+}
+
+.card-body {
+    max-width: 60vw;
+    position: absolute;
+}
+
+a:active {
+    transition: cubic-bezier();
+}
+
+button {
+    margin-left: 1vw;
+}

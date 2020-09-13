@@ -13,6 +13,7 @@ import { SocialMediaComponent } from './components/social-media/social-media.com
 import { ApresentacaoCarousselComponent } from './components/apresentacao-caroussel/apresentacao-caroussel.component';
 import { HobbieComponent } from './components/hobbie/hobbie.component';
 import { ApresentacaoCardsComponent } from './components/apresentacao-cards/apresentacao-cards.component';
+import { CollapseButtonComponent } from './components/collapse-button/collapse-button.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ApresentacaoCardsComponent } from './components/apresentacao-cards/apre
     PostComponent,
     HobbieComponent,
     ApresentacaoCarousselComponent,
-    ApresentacaoCardsComponent
+    ApresentacaoCardsComponent,
+    CollapseButtonComponent
   ],
   imports: [
     BrowserModule,

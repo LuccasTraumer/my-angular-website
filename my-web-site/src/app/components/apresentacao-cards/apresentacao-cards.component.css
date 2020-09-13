@@ -4,6 +4,7 @@
 }
 
 .card {
-    padding-left: 1vh;
-    padding-top: 1vh;
+    padding: 1vh;
+    margin: 1vh;
 }
+
