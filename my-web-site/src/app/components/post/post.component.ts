@@ -1,4 +1,4 @@
-import { environment } from './../../../environments/environment';
+import { environment } from './../../../environments/environment.dev';
 import { RepositoryTO } from './../utils/repositoryTO';
 import { GithubService } from './../../services/github.service';
 import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/core';
