@@ -6,6 +6,7 @@
         background-color: #191A2A;
         max-width: 1440px;
         min-width: 1000px;
+        max-block-size: 880px;
     }
 }
 /*

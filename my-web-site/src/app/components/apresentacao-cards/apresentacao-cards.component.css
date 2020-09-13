@@ -2,3 +2,9 @@
     display: flex;
     margin-bottom: 2vh;
 }
+
+.card {
+    padding: 1vh;
+    margin: 1vh;
+}
+
