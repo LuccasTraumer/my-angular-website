@@ -1,6 +1,7 @@
 
  #menuToggle
  {
+   width: 50%;
    display: block;
    position: absolute;
    top: 50px;
@@ -119,7 +120,7 @@
 
    position: absolute;
    margin: -100px 0 0 -70px;
-   padding: 50px 40px 50vh 5vw;
+   padding: 50px 55px 50vh 5vw;
    padding-top: 125px;
    background: #131421;
    list-style-type: none;
@@ -175,10 +176,6 @@ div .name-username {
 .name-username .username {
   padding-left: 1vw;
   font-size: 15px;
-}
-
-.description .mr-2vw {
-  padding-right: 1vw;
 }
 
 .ml-2vw {

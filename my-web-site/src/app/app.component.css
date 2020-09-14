@@ -10,20 +10,24 @@ html, body {
     margin:0px;
     padding: 0px;
     display: flex;
-    width: 110vw;
+    width: 100vw;
     height: 100vh;
 }
 
 .border  {
+  overflow: hidden;
   position: fixed;
   height: 100vh;
   width: 30vw;
   border: 0px solid #dee2e6!important ;
+  z-index: 1;
 }
 
 .feed {
+  padding-left: 3vw;
   width: 100vw;
   height: 100vh;
   position: relative;
   margin-left: 20vw;
+  z-index: 0;
 }
