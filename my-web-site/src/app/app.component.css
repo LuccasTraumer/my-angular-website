@@ -3,22 +3,22 @@ html, body {
   background-color: #191A2A;
 }
 
-.container {
+.container-fluid {
     display: absolute;
     padding: 0;
     margin: 0;
     margin:0px;
     padding: 0px;
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+
 }
 
 .border  {
-  overflow: hidden;
   position: fixed;
   height: 100vh;
-  width: 30vw;
+  width: 50%;
   border: 0px solid #dee2e6!important ;
   z-index: 1;
 }
